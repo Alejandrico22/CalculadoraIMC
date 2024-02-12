@@ -1,0 +1,12 @@
+
+<h2>Historial de diagnosticos en el componente historial</h2>
+
+
+<ul>
+    <li *ngFor="let mensaje of historial">
+        <p>{{mensaje}}</p>
+    </li>
+</ul>
+<div>
+    <button type="button" (click)="clear()">Limpiar</button>
+</div>

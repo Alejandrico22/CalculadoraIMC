@@ -1,0 +1,9 @@
+*{
+    padding:.75em;
+    margin:auto;
+    text-align: center;
+}
+input[type="text"]{
+    width: 20%;
+}
+
